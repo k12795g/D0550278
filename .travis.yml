@@ -1,0 +1,9 @@
+language: java
+os: Linux
+dist: xential
+jdk:
+	- openjdk11
+install:
+	- gradle assemble
+script:
+	- gradle test
