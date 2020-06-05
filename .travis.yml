@@ -1,6 +1,6 @@
 language: java
-os: Linux
-dist: xential
+os: linux
+dist: xenial
 jdk:
 	- openjdk11
 install:
